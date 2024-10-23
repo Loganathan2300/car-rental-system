@@ -9,14 +9,7 @@ import {
   Paper,
 } from '@mui/material';
 
-const DataTable = ({
-  headers,
-  data,
-  className,
-  striped,
-  bordered,
-  hover,
-}) => {
+const DataTable = ({ headers, data, className, striped, bordered, hover,}) => {
   return (
     <TableContainer component={Paper} className={className}>
       <Table 
