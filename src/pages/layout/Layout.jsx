@@ -6,7 +6,6 @@ const Layout = () => {
   return (
     <div>
       <Header />
-      {/* Add padding to avoid content being hidden behind the fixed header */}
       <div style={{ marginTop: '80px' }}>
         <Outlet />
       </div>
